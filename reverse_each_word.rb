@@ -4,5 +4,4 @@ def reverse_each_word(word)
   array.each {|revword| revwordarray << revword.reverse!}
   revwordarray.join (" ")
   array.collect {|revword| revword.reverse}
-  end
 end
